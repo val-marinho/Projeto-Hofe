@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*pagina curso: Valesca*/
+/*Configuração do body e dos containers */
+body{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: Montserrat;
+	flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 9rem;   
+    background-color: black;
+}
+.opcoes-cursos{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    gap: 4rem; 
+}
+.container-um{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+    margin-bottom: 2rem;
+}
+.container-dois{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+}
+/*Configuração dos cards*/
+.curso{
+    display: flex;
+    width: 18rem;
+    height: 23rem;
+    background:black;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content:space-evenly;
+    box-shadow: 0 0.6rem 1.6rem #66D6FA;
+     border: 7px solid #66D6FA;
+     transition: all 0.4s;
+     cursor: pointer;
+     border-radius: 1.5rem;
+ }
+ .curso:hover{
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+     box-shadow: 0 0.6rem 1.6rem white;   
+}
+/*Configuração dos títulos*/
+h1{
+    font-size: 3rem;
+    color: #66D6FA;
+    font-weight: bold;
+    margin-left: 17rem;
+   
+}
+h2{
+    font-size: 1.5rem;
+    color:#66D6FA;
+    font-weight: bold
+}
+/*Configuração dos botões*/
+button{
+    width: 15rem;
+    height: 1.9rem;
+    border:none;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.3rem white; 
+    border-radius: 0.7rem;
+    font-weight: bold;
+    color: #66D6FA;
+    margin-bottom: 1rem;
+     
+}
+/*Configuração do tamanho das imagens*/
+#img1{
+    width: 12rem;
+}
+
+#img2{
+    width: 10rem;
+}
+#img3{
+    width: 9rem;
+}
+#img4{
+    width: 23rem;
+}
+#img5{
+    width: 8.5rem;
+}
+#img6{
+    width: 7.5rem;
+}
+/*Configuração do barra lateral de rolagem*/
+::-webkit-scrollbar{
+    width: 0.4rem;  
+}
+::-webkit-scrollbar-thumb{
+    background-color: #000000;
+    border-radius: 0.3rem;  
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+@media screen and (max-width:599px) {
+/*Configuração do body e dos containers */
+body{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: Montserrat;
+	flex-direction: column;
+    justify-content: center;
+    margin-top: 9rem;   
+    background-color: black;
+}
+.opcoes-cursos{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 4rem; 
+    align-items: center;
+}
+.container-um{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    margin-bottom: 2rem;
+}
+.container-dois{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
+/*Configuração dos cards*/
+.curso{
+    display: flex;
+    width: 18rem;
+    height: 23rem;
+    background:black;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content:center;
+    box-shadow: 0 0.6rem 1.6rem #66D6FA;
+     border: 13px solid #66D6FA;
+     transition: all 0.4s;
+     cursor: pointer;
+     border-radius: 1.5rem;
+ }
+ .curso:hover{
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+     box-shadow: 0 0.6rem 1.6rem white;   
+}
+/*Configuração dos títulos*/
+h1{
+    font-size: 3rem;
+    color: #66D6FA;
+    font-weight: bold;
+    margin-left: 1rem;
+    
+}
+h2{
+    font-size: 1.5rem;
+    color:#66D6FA;
+    font-weight: bold
+}
+/*Configuração dos botões*/
+button{
+    width: 15rem;
+    height: 1.9rem;
+    border:none;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.3rem white; 
+    border-radius: 0.7rem;
+    font-weight: bold;
+    color: #66D6FA;
+    margin-bottom: 1rem;  
+}
+/*Configuração do tamanho das imagens*/
+#img1{
+    width: 12rem;
+}
+
+#img2{
+    width: 10rem;
+}
+#img3{
+    width: 9rem;
+}
+#img4{
+    width: 23rem;
+}
+#img5{
+    width: 8.5rem;
+}
+#img6{
+    width: 7.5rem;
+}
