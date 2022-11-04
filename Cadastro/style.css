@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* dando estilo ao corpo do formulário */
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    font-family: Montserrat;
+    padding-left: 5rem;
+}
+
+/* estilo a "caixa" do formulário*/
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 35rem;
+    gap: 1rem;
+    border-radius: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 3rem;
+    border: 0.1rem solid #66D6FA;
+    padding: 3rem;
+}
+
+/* estilo ao título */
+
+.title {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    user-select: none;
+    color: #66D6FA;
+}
+
+/* estilo a fileira */
+
+
+.row {
+    padding: 10rem; 
+}
+
+/* estilo a entrada da caixa de entrada */
+
+input {
+    border-radius: 10rem;
+    border: 0.1rem solid #66D6FA;
+    font-size: 1rem;
+    background-color: white;
+}
+
+/* estilo botão redefinir e cadastrar*/
+
+button {
+    border-radius: 10rem;
+    background-color: #000000;
+    border: 0.1rem solid #66D6FA;
+    color: white;
+    cursor: pointer;
+    margin-top: 0rem;
+    width: 10rem;
+    height: 1.3rem;
+}
+
+/* estilo imagem */
+
+.imagem {
+   margin-right: 10rem;
+}
+
+h2 {
+    color: white;
+    font-size: 1.3rem;
+    user-select: none;
+}
+
+/* responsividade */
+
+@media  screen and (max-width:599px) {
+    @import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    padding-right: 3rem;
+}
+
+/* dando estilo ao corpo do formulário */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    
+}
+
+/* estilo a "caixa" do formulário*/
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10rem;
+    background-color: #000000;
+    border-radius: 3rem;
+    border: 0.1rem solid #66D6FA;
+}
+
+/* estilo ao título */
+
+.title {
+    padding: 2rem;
+    font-size: 0.7rem;
+    text-align: center;
+    user-select: none;
+    color: #66D6FA;
+}
+
+/* estilo a fileira */
+
+.row {
+    padding: 10rem; 
+}
+
+/* estilo a entrada da caixa de entrada */
+
+input {
+    border: 0.1rem solid #66D6FA;
+    border-radius: 10rem;
+    font-size: 1rem;
+    background-color: whitesmoke;
+}
+
+/* estilo aos botôes */
+
+button {
+    border-radius: 10rem;
+}
+
+/* estilo imagem */
+
+.imagem {
+   margin-left: 16rem;
+   margin-bottom: 10rem;
+}
+
+/* estilo frase da imagem */
+
+h2 {
+    color: white;
+    font-size: 1.3rem;
+    user-select: none;
+}
+
+}
