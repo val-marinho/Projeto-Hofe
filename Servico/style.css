@@ -1,0 +1,384 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap);
+
+
+
+
+::-webkit-scrollbar{
+  width: 0.4rem;
+  
+  }
+  ::-webkit-scrollbar-thumb{
+  background-color: #000;
+  border-radius: 0.3rem;
+  
+  }
+  ::-webkit-scrollbar-track{
+  background-color: #000;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+    
+  }
+  
+  body{
+    
+    font-family: "Montserrat", sans-serif;
+    
+  }
+
+
+
+  
+/* //////////////////// INCIO ESTLIZAÇÃO CARDS PLANOS DE ASSINATURA /////////////////// */ 
+
+  .tituloF{
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+  }
+  
+  .TodosPlanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  .TodosPlanos .plan{
+    width: 320px;
+    height: 500px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0.6rem 1.6rem #66d6fa;
+    
+  
+  }
+  
+  .TodosPlanos .plan .plano-preco{
+    font-size: 4rem;
+  }
+  
+  .TodosPlanos .plan .real{
+    font-size: 2rem;
+    font-weight: 400;
+    vertical-align: middle;
+  
+  }
+  
+  .TodosPlanos .plan .plan-features .plan-item{
+    padding: 15px 0;
+    border-bottom: 1px solid  #66d6fa;
+    list-style: none;
+  }
+  
+  .TodosPlanos .plan .btn{
+    display: block;
+    background-color:#66d6fa;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    border-radius: 5px;
+    
+  }
+  
+  .TodosPlanos .plan .btn:hover{
+  background-color: #f6f6fe;
+  color: #494c5f;
+  border: 1px solid #66d6fa;
+  
+  }
+  
+  .TodosPlanos .plan .btn-blue{
+    background-color: #f6f6fe;
+    color:black;
+  }
+  
+  .TodosPlanos .plan .btn-blue:hover{
+    background-color: #66d6fa;
+    color: #f6f6fe;
+    border: 1px solid #f6f6fe;
+  }
+  
+  
+  
+  
+  .TodosPlanos .basic{
+    color: #66d6fa;
+   
+  }
+  
+  .TodosPlanos .pro{
+    background-color: #66d6fa;
+    color: #f6f6fe;
+    height: 500px;
+    border-radius: 5px;
+  }
+  
+  .TodosPlanos .master{
+    color:#66d6fa;
+  }
+
+.basic:hover{ 
+  transform: scale(1.1);
+  z-index:1;
+
+}
+
+.pro:hover{
+  transform: scale(1.1);
+  z-index:1;
+}
+
+.master:hover{
+  transform: scale(1.1);
+  z-index:1;
+}
+
+/* //////////////////// FIM ESTILIZAÇÃO CARDS DE ASSINATURA /////////////////// */ 
+
+
+
+/* //////////////////// /////////////////// */ 
+
+
+
+/*  /////////////////  INICIO PARTE COMO FUNCIONAR //////////////////////////// */
+
+
+.tituloC{
+  font-size: 2rem;
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+
+}
+
+  .wrapper-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+
+
+  .containerC {
+    overflow: hidden;
+   
+    background-color: black;
+    text-align: center;
+    position: relative;
+    width: 280px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .banner-img {
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .profile-img {
+    width: 8rem;
+    
+    margin-top: 4.5rem;
+  }
+  
+  .name {
+    font-weight:bold;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  /* //////////////////// FIM ESTILIZAÇÃO PARTE COMO FUNCIONA /////////////////// */ 
+  
+
+    /* //////////////////// //////////////////////////////////// /////////////////// */ 
+
+
+
+  /* ///////////////////// INICIO DETALHES SERVIÇOS /////////////////////////// */
+
+.containerf{
+    background-color: black;
+    padding:15px 9%;
+    padding-bottom: 100px;
+   
+}
+
+.containerf .heading{
+    padding: 85px;
+    text-align: center;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+    
+}
+
+.boxf{
+    box-shadow: 0 0.6rem 1.6rem #66d6fa;
+}
+
+.containerf .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+    
+}
+
+.containerf .box-container .boxf{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+    box-shadow: 0 0.6rem 1.6rem #66d6fa;
+    background-color: black;
+}
+
+.containerf .box-container .boxf img{
+    height: 80px;
+}
+
+.containerf .box-container .boxf h3{
+    color:white;
+    font-size: 22px;
+    padding:15px 0;
+}
+
+.containerf .box-container .boxf ul{
+  color: #999;
+  list-style: none;
+  
+}
+
+.containerf .box-container .boxf p{
+    color:#999;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.containerf .box-container .boxf .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.containerf .box-container .boxf .btn:hover{
+    letter-spacing: 1px;
+}
+
+.containerf .box-container .boxf:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .containerf{
+        padding:30px;
+    }
+}
+
+
+
+/* //////////////////// FIM ESTILIZAÇÃO PARTE COMO FUNCIONA /////////////////// */ 
+
+
+
+/* //////////////////// ////////////////////////////////// /////////////////// */
+
+
+
+/* //////////////////// /INICIO DUVIDAS FREQUENTES/////////////////////////// */
+
+.faq-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-titulo{
+  color:#66d6fa;
+  font-size: 30px;
+  padding: 10px 0px 5px 0px;
+  margin-bottom: 15px;
+}
+
+.pergunta{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #66d6fa;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.pergunta h3{
+  color: #66d6fa;
+  font-size: 18px;
+}
+
+.pergunta i{
+  color: #66d6fa;
+  font-size: 25px;
+  transition: all 0.5s ease;
+}
+
+.resposta{
+  max-height: 0px;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+  transform: scaleY(0.2);
+  transform-origin: top;
+  color:#999;
+}
+
+.ativar{
+  max-height: 300px;
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.fechar i{
+  transform: rotate(180deg);
+}
+
+@media (max-width:850px){
+  .faq-container{
+      padding:40px;
+  }
+}
+
+@media (max-width:850px){
+  .resposta{
+      padding:15px;
+  }
+}
