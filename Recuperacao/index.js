@@ -1,4 +1,4 @@
-$(seletor) .keypress (validar)
+
 function validar(){
     login = document.getElementById("email");
     if(validarEmail(login)==1){
