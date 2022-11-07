@@ -1,13 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contato</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-   <script src="./index.js"></script> 
+    <!--página contato: isa-->
+    <main>
+
+        <div class="inicio"> 
+            <h1>CONHEÇA A NOSSA EQUIPE</h1>
+
+            <div class="containerUm">
+            <!--div para criar os icones da equipe-->
+                <div class="links">
+
+                    <!--Beatriz-->
+
+                    <img class="equipe" src="./img/bia.jpeg" alt="">
+
+                    <h2>Beatriz Anjos</h2>
+                    <div class="icons">
+                        <a href="https://github.com/beatrizanjoss"><img src="./img/icons8-github-48.png"></a>
+                        <a href="https://www.linkedin.com/in/beatriz-anjos-2b277a251"><img id="linkedin"
+                                src="./img/icons8-linkedin-circundado-64.png"></a>
+                    </div>
+                </div>
+                <!--Felipe-->
+
+                <div class="links">
+                    <img class="equipe" src="./img/f.jpeg" alt="">
+                    <h2>Felipe Costa</h2>
+                    <div class="icons">
+                        <a href="https://github.com/CrvgFelipe"><img src="./img/icons8-github-48.png"></a>
+                        <a href="https://www.linkedin.com/in/felipe-costa-02672318b/"><img id="linkedin"
+                                src="./img/icons8-linkedin-circundado-64.png"></a>
+
+                    </div>
+                </div>
+
+                <!--isa-->
+
+                <div class="links">
+                    <img class="equipe" src="./img/isa.jpeg" alt="">
+                    <h2>Isabelle Carvalho</h2>
+                    <div class="icons">
+                        <a href="https://github.com/bellladeoliveira"><img src="./img/icons8-github-48.png"></a>
+                        <a href="https://www.linkedin.com/in/isabelle-carvalho-de-oliveira-7a30ab24b/"><img
+                                id="linkedin" src="./img/icons8-linkedin-circundado-64.png"></a>
+                    </div>
+                </div>
+                <!--marcus-->
+                <div class="links">
+                    <img class="equipe" src="./img/m.jpeg" alt="">
+                    <h2>Marcus Vinicius </h2>
+                    <div class="icons">
+                        <a href="https://github.com/mvrga"><img src="./img/icons8-github-48.png"></a>
+                        <a href="https://www.linkedin.com/in/marcus-vinicius-de-araujo-06ba6585/"><img id="linkedin"
+                                src="./img/icons8-linkedin-circundado-64.png"></a>
+                    </div>
+                </div>
+                <!--val-->
+                <div class="links">
+                    <img class="equipe" src="./img/val.jpeg" alt="">
+                    <h2>Valesca Marinho</h2>
+                    <div class="icons">
+                        <a href="https://github.com/val-marinho"><img src="./img/icons8-github-48.png"></a>
+                        <a href="https://www.linkedin.com/in/valmarinho/"><img id="linkedin"
+                                src="./img/icons8-linkedin-circundado-64.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form id="form">
+         <!--div para criar formulario-->
+            <div class="contato">
+                <div class="form-contato">
+                    <h1>ENTRE EM CONTATO</h1>
+                    <div class="f-contato">
+
+                        <input type="text" name="nome" placeholder="Nome" id="username">
+                        <input type="Email" name="Email" placeholder="email" id="email">
+                        <input type="text" placeholder="Mensagem" id="textarea">
+                        <button type="button" class="btn btn-outline-info"onclick="enviar()">Enviar</button>
+                 
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
