@@ -5,6 +5,218 @@
     padding: 0;
 }
 
+/* css MVRGA */
+
+::-webkit-scrollbar{
+    width: 0.4rem;
+    
+    }
+    ::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 0.3rem;
+    
+    }
+    ::-webkit-scrollbar-track{
+    background-color: #000;
+    }
+
+
+.background-home{
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        
+}
+
+
+.Main-home{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.Main span{
+    color: #29c2de;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4{
+    color: #909090;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.logo-home{
+    display: flex;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+span{
+    color: #29c2de;
+}
+
+nav ul  li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #29c2de;
+    transform: .4s;
+}
+
+.btn-home{
+    background-color: #29c2de;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn-home:hover{
+    transform: scale(1.2);
+}
+
+
+.Main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.Main span{
+    color: #29c2de;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4{
+    color: #909090;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    font-size: 35px;
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.Redes-sociais{
+    display: flex;
+    
+}
+
+.Redes-sociais a{
+    background-color: #000#29c2de;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #aeaeae;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Redes-sociais a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: #29c2de;
+    bottom: 35px;
+    font-size: 14px ;
+}
+
+
+
+
+
+/* css MVRGA */
+
+
+
+
+
+
 /* dando estilo ao corpo do formulário */
 
 body {
@@ -12,7 +224,8 @@ body {
     align-items: center;
     background-color: #000000;
     font-family: Montserrat;
-    padding-left: 5rem;
+   
+    flex-direction: row;
 }
 
 /* estilo a "caixa" do formulário*/
@@ -46,7 +259,10 @@ body {
 
 
 .row {
+    display: flex;
     padding: 10rem; 
+    flex-direction: row;
+    gap: 20rem;
 }
 
 /* estilo a entrada da caixa de entrada */
@@ -74,6 +290,8 @@ button {
 /* estilo imagem */
 
 .imagem {
+    width: 20rem;
+    height: 20rem;
    margin-right: 10rem;
 }
 
@@ -81,6 +299,12 @@ h2 {
     color: white;
     font-size: 1.3rem;
     user-select: none;
+    margin-top: 10rem;
+}
+.container-dois{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 /* responsividade */

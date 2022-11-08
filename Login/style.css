@@ -14,6 +14,200 @@ body{
     font-family: Montserrat;
 	background-color: black;	  
 }
+
+/* CSS MVRGA */
+
+.background-home{
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+.Main-home{
+position: absolute;
+top: 50%;
+left: 8%;
+transform: translateY(-50%);
+}
+
+.Main span{
+color: #29c2de;
+}
+
+h1{
+color: #fff;
+margin: 20px 0px 20px;
+font-size: 75px;
+}
+
+h4{
+color: #909090;
+letter-spacing: 2px;
+font-size: 20px;
+}
+
+h3{
+color: #fff;
+font-size: 25px;
+margin-bottom: 50px;
+}
+
+
+
+.cabecalho{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.logo-home{
+display: flex;
+color: #fff;
+font-size: 35px;
+cursor: pointer;
+letter-spacing: 1px;
+
+}
+
+span{
+color: #29c2de;
+}
+
+nav ul  li{
+list-style: none;
+display: inline-block;
+padding: 10px 25px;
+}
+
+nav ul li a{
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+nav ul li a:hover{
+color: #29c2de;
+transform: .4s;
+}
+
+.btn-home{
+background-color: #29c2de;
+color: #fff;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 10px 25px;
+border-radius: 30px;
+transition: transform .4s;
+}
+
+.btn:hover{
+transform: scale(1.2);
+}
+
+
+.Main{
+position: absolute;
+top: 50%;
+left: 8%;
+transform: translateY(-50%);
+}
+
+.Main span{
+color: #29c2de;
+}
+
+h1{
+color: #fff;
+margin: 20px 0px 20px;
+font-size: 75px;
+}
+
+h4{
+color: #909090;
+letter-spacing: 2px;
+font-size: 20px;
+}
+
+h3{
+color: #fff;
+font-size: 25px;
+margin-bottom: 50px;
+}
+
+
+footer{
+position: relative;
+width: 100%;
+height: 400px;
+background-color: #000;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+footer h6{
+font-size: 35px;
+color: #fff;
+}
+
+footer p{
+color: #fff;
+font-size: 15px;
+width: 500px;
+text-align: center;
+margin-top: 15px;
+letter-spacing: 1px;
+line-height: 23px;
+}
+
+.Redes-sociais{
+display: flex;
+
+}
+
+.Redes-sociais a{
+background-color: #000#29c2de;
+width: 45px;
+height: 45px;
+padding: 15px;
+border-radius: 50%;
+margin: 22px 10px;
+color: #aeaeae;
+text-decoration: none;
+font-size: 20px;
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.Redes-sociais a:hover{
+transform: scale(1.2);
+transition: .3s;
+}
+
+.end{
+position: absolute;
+color: #29c2de;
+bottom: 35px;
+font-size: 14px ;
+}
+
+
+
+
+
+/* css MVRGA */
+
 .login-container{
     display: flex;
     flex-direction: row;
@@ -207,3 +401,4 @@ p{
         font-weight: bold;
         margin-left: 4rem;
     }
+}
