@@ -6,9 +6,7 @@
     
    
 }
-body{
-  background-color: #000;
-}
+
 
 ::-webkit-scrollbar{
     width: 0.4rem;
@@ -26,6 +24,14 @@ body{
 
   /* css MVRGA */
 
+  .background-home{
+
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
 
 
   .Main-home{
