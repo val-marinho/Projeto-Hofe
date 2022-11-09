@@ -42,17 +42,6 @@ body{
 }
 
 
-.Main-home{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-}
-
-.Main span{
-    color: #29c2de;
-}
-
 h1{
     color: #fff;
     margin: 20px 0px 20px;
@@ -123,21 +112,10 @@ nav ul li a:hover{
     transition: transform .4s;
 }
 
-.btn:hover{
+.btn-home:hover{
     transform: scale(1.2);
 }
 
-
-.Main{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-}
-
-.Main span{
-    color: #29c2de;
-}
 
 h1{
     color: #fff;
@@ -237,6 +215,8 @@ footer p{
     background-color: black;
     box-shadow: 0 0.2rem 1.2rem #66D6FA;
     border: 13px solid #66D6FA; 
+    margin-left: 25rem;
+    margin-top: 2rem;
 }
 /*Configuração do título e do parágrafo*/
 .texto{

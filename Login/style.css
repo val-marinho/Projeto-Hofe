@@ -12,8 +12,24 @@ body{
     justify-content:center;
     align-items: center;
     font-family: Montserrat;
-	background-color: black;	  
+	background-color: black;
+    margin-left: 1.6rem;	  
 }
+::-webkit-scrollbar{
+    width: 0.4rem;
+    
+    }
+    ::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 0.3rem;
+    
+    }
+    ::-webkit-scrollbar-track{
+    background-color: #000;
+    }
+  
+
+
 
 /* CSS MVRGA */
 
@@ -27,16 +43,7 @@ body{
 }
 
 
-.Main-home{
-position: absolute;
-top: 50%;
-left: 8%;
-transform: translateY(-50%);
-}
 
-.Main span{
-color: #29c2de;
-}
 
 h1{
 color: #fff;
@@ -108,39 +115,10 @@ border-radius: 30px;
 transition: transform .4s;
 }
 
-.btn:hover{
+.btn-home:hover{
 transform: scale(1.2);
 }
 
-
-.Main{
-position: absolute;
-top: 50%;
-left: 8%;
-transform: translateY(-50%);
-}
-
-.Main span{
-color: #29c2de;
-}
-
-h1{
-color: #fff;
-margin: 20px 0px 20px;
-font-size: 75px;
-}
-
-h4{
-color: #909090;
-letter-spacing: 2px;
-font-size: 20px;
-}
-
-h3{
-color: #fff;
-font-size: 25px;
-margin-bottom: 50px;
-}
 
 
 footer{
@@ -207,12 +185,13 @@ font-size: 14px ;
 
 
 /* css MVRGA */
+/*pagina login: Valesca*/
 
 .login-container{
     display: flex;
     flex-direction: row;
-    width: 82rem;
-    height: 35rem;
+    width: 80rem;
+    height: 30rem;
     border-radius: 1.5rem;
     justify-content:space-around;
     align-items: center;
@@ -224,7 +203,7 @@ font-size: 14px ;
 /*Configuração do título login*/
 #titulo{
     margin-bottom:4rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#66D6FA; 
 }
 /*Configuração do formulário de login*/
@@ -262,13 +241,13 @@ font-size: 14px ;
 #checkbox{
     margin-right: 1rem;
 }
-h2{
+main h2{
     font-size:0.9rem;
     color: white;
     margin-right: 18rem;
     margin-top: 0.5rem;
 }
-button{
+main button{
     width: 27rem;
     height: 2.5rem;
 }
@@ -293,12 +272,12 @@ button{
     justify-content: center;
 }
 #imagem{
-    width: 37rem;
+    width: 33rem;
     margin-left: 4rem;
 }
-p{
+main p{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-left: 6.5rem;
 }

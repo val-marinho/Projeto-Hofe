@@ -1,11 +1,258 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
 *{
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans'; 
-    box-sizing: border-box;
-    
-   
+     
 }
+body{
+  display: flex;
+  background-color: black;
+   width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Monteserrat';
+ 
+   
+ 
+}
+
+.inicio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 3rem;
+  margin-top: 4rem;
+  
+  
+  }  
+  main h1{
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  color:#66D6FA;
+  display: flex;
+  border-radius: 3rem;
+  gap: 2rem;
+  padding-left: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  }
+  
+  main h2{
+  
+  color:#f7fdff;
+  font-size: 1.3rem;
+  }
+  .containerUm{
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+  }  
+  
+                   
+  .equipe{
+      width: 15rem;
+      height: 15rem;
+      margin-bottom: 1rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 0.6rem 1.6rem#66D6FA;
+      border: 5px solid #66D6FA;
+  } 
+  .equipe:hover{
+      -webkit-transform:scale(1.1);
+      transform:scale(1.1);
+      box-shadow: 0.0.6rem 1.6rem white;
+  }
+  .links{
+      display: flex;
+      height: 20rem;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     
+      
+  }
+  .icons{
+      display: flex;
+      flex-direction: row;
+      height: 3rem;
+      margin-top: 1rem;
+      
+  }
+  #linkedin{
+      height: 2.9rem;
+  
+  }
+  .contato{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  
+  
+  
+  }
+  .form-contato{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      width: 40rem;
+      height: 27rem;
+      margin-top: 4rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 0.6rem 1.6rem#66D6FA;
+      border: 5px solid #66D6FA;
+      margin-top: 2rem;
+  margin-bottom: 6rem;
+  
+  
+  }
+  .f-contato{
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      width: 38rem;
+  }
+  .f-contato input{
+      height: 2rem;
+  }
+  #textarea {
+  width: 38rem;
+  height: 5rem;
+  }
+  .f-contato button{
+      height:2.3rem;
+  }
+                
+  @media screen and (max-width:599px) {
+      body{
+          display: flex;
+          background-color: black;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Monteserrat';
+          width: 100%;
+          
+          
+      
+      }
+      .inicio{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      gap: 3rem;
+      margin-top: 4rem;
+      
+      
+      
+      }  
+      h1{
+          font-size: 2rem;
+      font-family: 'Montserrat';
+      color:#66D6FA;
+      display: flex;
+      border-radius: 3rem;
+      gap: 2rem;
+      padding-left: 50px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      }
+      
+      h2{
+      
+      color:#f7fdff;
+      }
+      .containerUm{
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+      }  
+      
+                       
+      .equipe{
+          width: 15rem;
+          height: 15rem;
+          margin-bottom: 1rem;
+          border-radius: 1.5rem;
+          box-shadow: 0 0.6rem 1.6rem#66D6FA;
+          border: 5px solid #66D6FA;
+          
+      } 
+      .equipe:hover{
+          -webkit-transform:scale(1.1);
+          transform:scale(1.1);
+          box-shadow: 0.0.6rem 1.6rem white;
+      }
+      .links{
+          display: flex;
+          height: 20rem;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          
+         
+          
+      }
+      .icons{
+          display: flex;
+          flex-direction: row;
+          height: 3rem;
+          margin-top: 1rem;
+          
+      }
+      #linkedin{
+          height: 2.9rem;
+      
+      }
+      .contato{
+          display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem;
+      
+      
+      
+      }
+      .form-contato{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+          width: 30rem;
+          height: 27rem;
+          margin-top: 4rem;
+          border-radius: 1.5rem;
+          box-shadow: 0 0.6rem 1.6rem#66D6FA;
+          border: 5px solid #66D6FA;
+          margin-top: 2rem;
+      margin-bottom: 6rem;
+      
+      
+      }
+      .f-contato{
+          display: flex;
+          flex-direction: column;
+          gap: 0.7rem;
+          width: 25rem;
+      }
+      .f-contato input{
+          height: 2rem;
+      }
+      #textarea {
+      width: 24.7rem;
+      height: 5rem;
+      }
+      .f-contato button{
+          height:2.2rem;
+      }
+  }
+  
 
 ::-webkit-scrollbar{
     width: 0.4rem;
@@ -23,37 +270,12 @@
 
   /* css MVRGA */
 
-
-
-  .Main-home{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-  }
-  
-  .Main span{
-    color: #29c2de;
-  }
-  
-  h1{
-    color: #fff;
-    margin: 20px 0px 20px;
-    font-size: 75px;
-  }
-  
   h4{
     color: #909090;
     letter-spacing: 2px;
     font-size: 20px;
   }
   
-  /*h3{
-    color: #fff;
-    font-size: 25px;
-    margin-bottom: 50px;
-  }
-  */
   
   
   .cabecalho{
@@ -106,39 +328,14 @@
     transition: transform .4s;
   }
   
-  .btn:hover{
+  .btn-home:hover{
     transform: scale(1.2);
   }
   
   
-  .Main{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-  }
   
-  .Main span{
-    color: #29c2de;
-  }
+ 
   
-  h1{
-    color: #fff;
-    margin: 20px 0px 20px;
-    font-size: 75px;
-  }
-  
-  h4{
-    color: #909090;
-    letter-spacing: 2px;
-    font-size: 20px;
-  }
-  
-  h3{
-    color: #fff;
-    font-size: 25px;
-    margin-bottom: 50px;
-  }
   
   
   footer{
