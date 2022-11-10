@@ -5,7 +5,7 @@
 </div>
 
 ## 💬Projeto construído em HTML, CSS e JAVASCRIPT <br>
-  Tema: Site de cursos de front end<br>
+  Tema: Plataforma de ensino a distância de front end<br>
   
   
 
