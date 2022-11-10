@@ -7,7 +7,7 @@
 /*Configuração do body e do container maior que engloba o formulário e a imagem*/
 body{
     display: flex;
-    width: 100%;
+    width: 93%;
     height: 100vh;
     justify-content:center;
     align-items: center;
@@ -117,6 +117,7 @@ transition: transform .4s;
 
 .btn-home:hover{
 transform: scale(1.2);
+color: #fff;
 }
 
 
@@ -199,6 +200,8 @@ font-size: 14px ;
      background-color: black;
      box-shadow: 0 0.2rem 1.2rem #66D6FA;
      border: 13px solid #66D6FA; 
+     margin-left: 5rem;
+     margin-top: 2rem;
 }
 /*Configuração do título login*/
 #titulo{

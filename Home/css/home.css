@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Josefin Sans'; 
     box-sizing: border-box;
     
    
@@ -36,8 +36,8 @@
 
   .Main-home{
     position: absolute;
-    top: 50%;
-    left: 8%;
+    top: 40%;
+    left: 5%;
     transform: translateY(-50%);
   }
   
@@ -115,7 +115,7 @@
     transition: transform .4s;
   }
   
-  .btn:hover{
+  .btn-home:hover{
     transform: scale(1.2);
   }
   
@@ -132,7 +132,7 @@
   }
   
   h1{
-    color: #fff;
+    color: #29c2de;
     margin: 20px 0px 20px;
     font-size: 75px;
   }
@@ -159,6 +159,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: -7rem;
   }
   
   footer h6{
@@ -210,7 +211,16 @@
   }
   
   
-  
-  
+  #imgcarrosel {
+    align-items: center;
+    max-width: 50rem;
+    max-height: 30rem;
+  }
+  .carrossel{
+    display: flex;
+    width: 30rem;
+    margin-top: 5rem;
+   margin-left:63rem;
+  }
   
   /* css MVRGA */

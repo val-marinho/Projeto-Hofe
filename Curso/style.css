@@ -17,6 +17,7 @@ body{
     justify-content: space-evenly;  
     background-color: black;
 
+
 }
 
 ::-webkit-scrollbar{
@@ -116,6 +117,7 @@ transition: transform .4s;
 
 .btn-home:hover{
 transform: scale(1.2);
+color: #fff;
 }
 
 
@@ -193,7 +195,7 @@ font-size: 14px ;
     flex-direction:column;
     justify-content: space-evenly;
     gap: 4rem; 
-    margin-left: 11rem;
+    margin-left: 17rem;
 }
 .container-um{
     display: flex;

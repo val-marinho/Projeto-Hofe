@@ -2,20 +2,161 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Josefin Sans'; 
      
 }
 body{
   display: flex;
   background-color: black;
-   width: 100%;
+  height: 50rem;
+   width: 80%;
   justify-content: center;
   align-items: center;
   font-family: 'Monteserrat';
- 
-   
+  padding-left: 5rem;
  
 }
+
+/* css mvrga */
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 0.3rem;    
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+.background-home {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+      
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.logo-home {
+  display: flex;
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+  letter-spacing: 1px;
+
+}
+
+span {
+  color: #29c2de;
+}
+
+nav ul  li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #29c2de;
+  transform: .4s;
+}
+
+.btn-home {
+  background-color: #29c2de;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+
+.btn-home:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15rem;
+}
+
+footer h6 {
+  font-size: 35px;
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+  font-size: 15px;
+  width: 500px;
+  text-align: center;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+
+.Redes-sociais {
+  display: flex;
+  
+}
+
+.Redes-sociais a {
+  background-color: #000#29c2de;
+  width: 45px;
+  height: 45px;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: #aeaeae;
+  text-decoration: none;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Redes-sociais a:hover {
+  transform: scale(1.2);
+  transition: .3s;
+}
+
+.end {
+  position: absolute;
+  color: #29c2de;
+  bottom: 35px;
+  font-size: 14px ;
+}
+
+/* css mvrga */
 
 .inicio{
   display: flex;
@@ -23,9 +164,15 @@ body{
   justify-content: space-evenly;
   gap: 3rem;
   margin-top: 4rem;
+  margin-left: 2rem;
   
   
   }  
+
+.conheca {
+  margin-left: 13rem ;
+}
+
   main h1{
   font-size: 2.5rem;
   font-family: 'Montserrat';
@@ -105,9 +252,8 @@ body{
       border-radius: 1.5rem;
       box-shadow: 0 0.6rem 1.6rem#66D6FA;
       border: 5px solid #66D6FA;
-      margin-top: 2rem;
-  margin-bottom: 6rem;
-  
+      margin-top: 8rem;
+  margin-left: 15rem;
   
   }
   .f-contato{
@@ -266,139 +412,3 @@ body{
     ::-webkit-scrollbar-track{
     background-color: #000;
     }
-
-
-  /* css MVRGA */
-
-  h4{
-    color: #909090;
-    letter-spacing: 2px;
-    font-size: 20px;
-  }
-  
-  
-  
-  .cabecalho{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  
-  }
-  
-  .logo-home{
-    display: flex;
-    color: #fff;
-    font-size: 35px;
-    cursor: pointer;
-    letter-spacing: 1px;
-  
-  }
-  
-  span{
-    color: #29c2de;
-  }
-  
-  nav ul  li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 25px;
-  }
-  
-  nav ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-  }
-  
-  nav ul li a:hover{
-    color: #29c2de;
-    transform: .4s;
-  }
-  
-  .btn-home{
-    background-color: #29c2de;
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
-  }
-  
-  .btn-home:hover{
-    transform: scale(1.2);
-  }
-  
-  
-  
- 
-  
-  
-  
-  footer{
-    position: relative;
-    width: 100%;
-    height: 400px;
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  footer h6{
-    font-size: 35px;
-    color: #fff;
-  }
-  
-  footer p{
-    color: #fff;
-    font-size: 15px;
-    width: 500px;
-    text-align: center;
-    margin-top: 15px;
-    letter-spacing: 1px;
-    line-height: 23px;
-  }
-  
-  .Redes-sociais{
-    display: flex;
-    
-  }
-  
-  .Redes-sociais a{
-    background-color: #000#29c2de;
-    width: 45px;
-    height: 45px;
-    padding: 15px;
-    border-radius: 50%;
-    margin: 22px 10px;
-    color: #aeaeae;
-    text-decoration: none;
-    font-size: 20px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-  }
-  
-  .Redes-sociais a:hover{
-    transform: scale(1.2);
-    transition: .3s;
-  }
-  
-  .end{
-    position: absolute;
-    color: #29c2de;
-    bottom: 35px;
-    font-size: 14px ;
-  }
-  
-  
-  
-  
-  
-  /* css MVRGA */

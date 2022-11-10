@@ -114,6 +114,7 @@ nav ul li a:hover{
 
 .btn-home:hover{
     transform: scale(1.2);
+    color: #fff;
 }
 
 
@@ -215,7 +216,7 @@ footer p{
     background-color: black;
     box-shadow: 0 0.2rem 1.2rem #66D6FA;
     border: 13px solid #66D6FA; 
-    margin-left: 25rem;
+    margin-left: 29rem;
     margin-top: 2rem;
 }
 /*Configuração do título e do parágrafo*/
