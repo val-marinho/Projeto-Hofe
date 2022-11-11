@@ -160,6 +160,6 @@ function sucesso() {
 //Alerta sucesso quando todos os valores forem válidos.
 
 } else {
-    window.location.href = "https://val-marinho.github.io/Projeto-Hofe/Login/index.html"
+    window.location.href = "../Login/index.html"
 }
 }
