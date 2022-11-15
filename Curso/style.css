@@ -19,6 +19,12 @@ body{
 
 
 }
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
 
 ::-webkit-scrollbar{
     width: 0.4rem;  
@@ -195,7 +201,7 @@ font-size: 14px ;
     flex-direction:column;
     justify-content: space-evenly;
     gap: 4rem; 
-    margin-left: 17rem;
+  
 }
 .container-um{
     display: flex;
@@ -290,6 +296,12 @@ body{
     justify-content: center;
     margin-top: 9rem;   
     background-color: black;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 .opcoes-cursos{
     display: flex;
